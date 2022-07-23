@@ -1,0 +1,105 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .firstrow{
+    height: 57vh;
+    width:100%;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem; */
+    justify-content: space-evenly;
+    border: 2px solid;
+    justify-items: left;
+    background: #F9FCFF;
+  }
+  .popcount{
+    display:flex;
+    /* flex-direction: column; */
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+  }
+  .popcard{
+  /*   background: #B1B1B1;
+    padding: 2px;
+    border-radius: 9px; */
+  /*   position: absolute;*/
+    width: 255px;
+    height: 106.68px;
+    left: 32px;
+    top: 39px; 
+    background: #FFFFFF;
+    border: 1.5px solid #B1B1B1;
+    border-radius: 9px;
+  }
+  
+  
+  .other-card{
+  width: 397px;
+  height: 359px;
+  padding: 20px 35px;
+  left: 744px;
+  top: 39px;
+  background: #FFFFFF;
+  border: 1.5px solid #B1B1B1;
+  border-radius: 9px; 
+  }
+
+  p.firstcol-title {
+    /* position: absolute; */
+    /* left: 90.16px;
+    top: 32px; */
+    font-weight: 500;
+    font-size: 10.3239px;
+    text-align: justify;
+    justify-items: center;
+    color: #B1B1B1;
+    margin-left: 0px;
+    /* margin-bottom: 60px; */
+    
+    }
+
+  p.personel{
+    /* position: absolute; */
+    left: 90.16px;
+    top: 50.24px;
+    font-weight: 500;
+    font-size: 16.5182px;
+    text-align: justify;
+    color: #000000;
+    margin-left: 90px;
+  }
+
+i{
+  color: #8C4AF2;
+  width: 22.3px;
+  height: 18.58px;
+  margin-left: 32px;
+  margin-top: 44px;
+}
+
+p.trackpop-text{
+  /* position: absolute; */
+  left: 344px;
+  top: 32px;
+  font-weight: 500;
+  font-size: 16.5182px;
+  line-height: 25px;
+  /* identical to box height */
+  text-align: justify;
+  color: #000000;
+}
+
+p.pop-text{
+  font-weight: 500;
+  font-size: 16.5182px;
+  line-height: 25px;
+  /* identical to box height */
+  text-align: justify;
+  color: #000000;
+
+}
